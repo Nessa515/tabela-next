@@ -1,0 +1,9 @@
+.tabela{
+    width: 1200px;
+    height: 359px;
+    border: 2px solid black
+}
+
+.tabela th td{
+    border: 2px solid black;
+}
