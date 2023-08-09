@@ -1,9 +1,29 @@
 .tabela{
+    margin: 50px 0 0 150px;
     width: 1200px;
     height: 359px;
-    border: 2px solid black
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 
-.tabela th td{
-    border: 2px solid black;
+.tabela td{
+    text-align: center;
+}
+
+.tabela .gray{
+    height: 60px;
+    color: white;
+    background-color: #4E5058;
+}
+
+.tabela .white{
+    height: 60px;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.tabela .blue{
+    height: 60px;
+    color: black;
+    background-color: #6F81FA;
 }
